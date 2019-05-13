@@ -5,6 +5,6 @@ function iterativeLog(callback) {
 }
 
 function iterate(callback) {
-  let arr = [42, 73, 63];
+  var arr = [42, 73, 63];
   arr.forEach(callback);
 }
